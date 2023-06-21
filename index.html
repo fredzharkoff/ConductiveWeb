@@ -4,63 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/index.css">
     <title>Conductive Web</title>
 </head>
 <body>
     <header>
-        <nav>
-            <li><a href="/"></a></li>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+        <nav id="navBar" class="navbar sticky-top" aria-label="site navigation">
+            <a class="navBrand" href="/">
+                <img class="navBrandSize" width="65" height="66" src="/img/founder.jpg" alt="Site Logo">
+            </a>
+            <label class="hamburgerMenu">
+              <input type="checkbox">
+            </label>
+            <aside class="sidebar">
+          <ul class = "cwNav">
+            <li class="navLink"><a class="navLinkStyle" href="services.html">SERVICES</a></li>
+            <li class="navLink"><a class="navLinkStyle" href="about.html">ABOUT</a></li>
+            <li class="navLink"><a class="navLinkStyle" href="contact.html">CONTACT</a></li>
           </ul>
         </nav>
 
         <figure class="banner">
             <div class="bannerText">
               <h1>Electrify your online presence</h1>
+              <p>We help customers find you</p>
               <a href="/contact.html">contact</a>
             </div>
           </figure>
       </header>
 <main>
     
-    <div>
-        <a href="#">Web Development</a>
-        <a href="#">SEO</a>
-        <a href="#">Management</a>
+    <div class="linkElemAlign">
+        <a class="linkElem" href="#">Business Marketing</a>
+        <a class="linkElem" href="#">Advertising</a>
+        <a class="linkElem" href="#">Media Growth</a>
     </div>
+    <div>
 <p>We offer affordable Web Solutions that helps consumers find your business and stick with you. </p>
-
-
+</div>
+<div>
 <h2>Having trouble reaching clients?</h2>
-<p>We can help.</p>
+<p class="h2Txt">We can help.</p>
 
-<a href="/contact.html">Contact Us</a>
-    </main>
+<a class="contactBtn" href="/contact.html">Contact Us</a>
+</div>
+   
 
-<section>
+<section class="founderSect">
     <h3>Meet Fred</h3>
     <img src="/img/founder.JPG" alt="photo of founder" height="200px" width="150px">
-    <p>
+    <p class="founderTxt">
     Being the founder here at Conductive Web we 
     aim to provide until the customer is satisfied. 
     No one likes a boring and hard to find website... 
     We'll provide your website everything it needs
     to be successful in this competitive space!</p>
 </section>
-    
-    <div>
-        <div>logo</div>
-        instagram
-        linkedin
-        facebook
-        (503) 936-4613
-    </div>
+</main>
     <footer>
+        <div class="handles">
+            <div>logo</div>
+            <a href="#">instagram</a>
+            <a href="#"> linkedin</a>
+            <a href="#"> facebook</a>
+        <a href="503-936-4613">(503) 936-4613</a>
+        </div>
         Copyrighted 2023 Conductive Web and Media. Privacy Policy
     </footer>
     

@@ -1,3 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Pt Sans", sans-serif, monospace;
+  }
+
+  html {
+    background-color: #EEEEEE;
+  }
+
 nav {
+    display: flex;
     background-color: #222831;
+    color: #699eff; 
+    
 }
+
+.navLink {
+    padding: 10px;
+    font-size: 26px;
+    display: inline-block;
+  }
+
+  
+  a {
+    color: #393E46;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  header a {
+    color: #EEEEEE;
+  }
+
+  a:hover {
+    color: #699eff;
+    border-color: #222831;
+  }
+
+  .banner {
+
+  }
+
+  .handles {
+    display: flex;
+    align-content: center;
+  }
+
+
+  footer {
+    margin-top: 5em;
+    padding-block: 5em;
+    background-color: #222831;
+  }
