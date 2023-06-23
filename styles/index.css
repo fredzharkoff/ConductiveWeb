@@ -1,16 +1,4 @@
-.banner {
-    height: 700px;
-    background-image: url("/img/3d-3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-bottom: 20px;
-  }
-
-
-
-  .h2Txt {
+ .h2Txt {
     text-decoration: underline;
     font-weight: bold;
   }
@@ -20,7 +8,7 @@
     font-weight: bold;
   }
 
-  .linkElemAlign, h2, p, .contactBtn {
+  .linkElemAlign, h4, h1, h2, p, .contactBtn {
     margin-block: 2em;
     display: flex;
     justify-content: center;
