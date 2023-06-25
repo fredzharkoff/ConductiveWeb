@@ -24,4 +24,7 @@
   .founderTxt {
   }
 
-  
+.electricTxtalign {
+ display: flex;
+ justify-content: center;
+}
