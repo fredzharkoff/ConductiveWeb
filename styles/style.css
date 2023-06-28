@@ -17,11 +17,11 @@
   }
 
   a:hover {
-    color: #699eff;
+    color: #2452a8;
     border-color: #222831;
   }
   a {
-    color: #393E46;
+    color: #295baaaa;
     text-decoration: none;
     padding: 10px;
   }
@@ -48,7 +48,7 @@
   }
 
   .navLinkStyle {
-    color:#0a3472;
+    color:#ffffff;
   }
 
 
@@ -89,4 +89,19 @@
   .hamburgerMenu{
     visibility: hidden;
   }
+
+  #instagram:hover {
+    color: #7a3495;
+  }
+
+  #facebook:hover {
+    color: #1b5ec3;
+  }
   
+  #linkedin:hover {
+    color: #0a3472;
+  }
+
+  #phone:hover {
+    color: #bbb9b9;
+  }
