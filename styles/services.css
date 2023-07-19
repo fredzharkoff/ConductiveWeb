@@ -1,0 +1,26 @@
+h1 {
+    margin-block: 2em;
+    text-align: center;
+}
+section {
+    display: flex;
+    margin-block: 10em;
+    width: 80%;
+    margin-inline:10em;
+}
+
+section p {
+    width: 90%;
+}
+
+.webSect {
+}
+
+.adSect {
+    overflow: hidden;
+}
+
+#microphone {
+   transform: translate(-25em, 0);
+}
+

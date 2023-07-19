@@ -4,6 +4,10 @@
     font-family: "Pt Sans", sans-serif, monospace;
   }
 
+  main {
+    color: #ffffff;
+  }
+
   html {
     background-color: #000000;
   }
@@ -24,6 +28,10 @@
     color: #295baaaa;
     text-decoration: none;
     padding: 10px;
+  }
+
+  p {
+    font-size: 1.2em;
   }
 
   nav {
