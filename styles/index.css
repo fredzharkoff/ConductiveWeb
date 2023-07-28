@@ -4,51 +4,55 @@ main {
   background-size: 70%;
   background-repeat: no-repeat;
 }
- 
- .serviceHeader {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-  }
 
-  .serviceElem {
-    border: 2px solid;
-    border-color: #4681ab;
-    padding: 2em;
-    margin-inline: 2.5em;
-    font-weight: bold;
-    width: 27em;
-  }
+.serviceHeader {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 0;
+}
 
-  .serviceElemAlign, h4, h1, h2, h3 {
-    margin-block: 2em;
-    display: flex;
-    justify-content: center;
-  }
+.serviceElem {
+  border: 2px solid;
+  border-color: #4681ab;
+  padding: 2em;
+  margin-inline: 2.5em;
+  font-weight: bold;
+  width: 27em;
+}
 
-  .serviceElem p {
-    margin: 0;
-    margin-top: 1em;
-    text-align: center;
+.serviceElemAlign,
+h4,
+h1,
+h2,
+h3 {
+  margin-block: 2em;
+  display: flex;
+  justify-content: center;
+}
 
-  }
+.serviceElem p {
+  margin: 0;
+  margin-top: 1em;
+  text-align: center;
 
-  .serviceElem i {
-    color: #4681ab;
-    margin-block: .5em;
-    display: flex;
-    justify-content: center;
-  }
+}
 
-  h1 {
-    color: rgb(255, 255, 255);
-    margin-bottom: 3em;
-  }
+.serviceElem i {
+  color: #4681ab;
+  margin-block: .5em;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 3em;
+}
 
 
 .electricTxtAlign {
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .contactSect {
@@ -69,6 +73,7 @@ main {
   display: flex;
   justify-content: center;
 }
+
 .aboutAlign {
   width: 50%;
   display: block;
@@ -76,40 +81,48 @@ main {
   text-align: center;
 }
 
- button , .contactBtn, .aboutBtn{
+button,
+.contactBtn,
+.aboutBtn {
   border-color: #000001;
   margin-top: 1em;
   text-transform: uppercase;
   background-color: rgb(25, 149, 191);
-  color:#ffffff;
+  color: #ffffff;
   text-decoration: none;
   padding: 10px;
   transition-duration: 0.7s;
-  }
-
-  button:hover ,.contactBtn:hover ,.aboutBtn:hover {
-    border-color: #236591;
-    color: #4681ab;
-    background-color: #000000;
-    text-decoration: none;
-    padding: 10px;
-  }
-
-   .contactTxt, .aboutTxt {
-    font-size: 20px;
-  }
-
-  input, textarea {
-    border-style:solid;
-    border-width: 1px;
-    border-color: slategray;
-    color: #ffffff;
-    background-color: black;
-    width: 35em;
-    padding: .5em;
 }
-textarea::placeholder, input::placeholder {
-    color: #ffffff;
+
+button:hover,
+.contactBtn:hover,
+.aboutBtn:hover {
+  border-color: #236591;
+  color: #4681ab;
+  background-color: #000000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.contactTxt,
+.aboutTxt {
+  font-size: 20px;
+}
+
+input,
+textarea {
+  border-style: solid;
+  border-width: 1px;
+  border-color: slategray;
+  color: #ffffff;
+  background-color: black;
+  width: 35em;
+  padding: .5em;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #ffffff;
 }
 
 
@@ -119,12 +132,12 @@ input {
 }
 
 textarea {
-height: 10em;
+  height: 10em;
 }
 
 .newsletterSect {
   margin-top: 7em;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 

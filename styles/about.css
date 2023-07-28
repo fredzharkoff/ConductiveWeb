@@ -6,16 +6,18 @@ h1 {
 
 .founderTxt {
     margin-left: 2em;
-} 
-
-h2 , h5 {
-font-size: 2em;
 }
+
+h2,
+h5 {
+    font-size: 2em;
+}
+
 section {
     display: flex;
     margin-top: 15em;
     width: 80%;
-    margin-inline:10em;
+    margin-inline: 10em;
 }
 
 section p {

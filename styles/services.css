@@ -11,7 +11,7 @@ section p {
     display: flex;
     margin-block: 10em;
     width: 80%;
-    margin-inline:10em;
+    margin-inline: 10em;
 }
 
 #adSect {
@@ -19,6 +19,5 @@ section p {
 }
 
 #microphone {
-   transform: translate(-25em, 0);
+    transform: translate(-25em, 0);
 }
-

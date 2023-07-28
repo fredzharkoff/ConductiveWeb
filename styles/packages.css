@@ -1,12 +1,13 @@
 main {
-   display: flex;
+    display: flex;
 }
 
-.dify , .diy {
+.dify,
+.diy {
     display: flex;
     width: 50%;
     height: 50em;
-    background: linear-gradient(#000000, #2275da, #000000 );
+    background: linear-gradient(#000000, #2275da, #000000);
     opacity: .8;
 }
 
@@ -18,7 +19,8 @@ main {
     padding-block: 30%;
 }
 
-.dify:hover , .diy:hover {
+.dify:hover,
+.diy:hover {
     transition: .5s;
-   opacity: 1;
+    opacity: 1;
 }
