@@ -1,0 +1,23 @@
+h1 {
+    font-size: 2.5em;
+    margin-block: 2em;
+    text-align: center;
+}
+
+.founderTxt {
+    margin-left: 2em;
+} 
+
+h2 , h5 {
+font-size: 2em;
+}
+section {
+    display: flex;
+    margin-top: 15em;
+    width: 80%;
+    margin-inline:10em;
+}
+
+section p {
+    width: 90%;
+}
