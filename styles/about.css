@@ -4,6 +4,10 @@ h1 {
     text-align: center;
 }
 
+.constructDiv {
+margin-block: 3em;
+}
+
 .founderTxt {
     margin-left: 2em;
 }

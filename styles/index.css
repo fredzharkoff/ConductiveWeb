@@ -14,7 +14,7 @@ main {
 
 .serviceElem {
   border: 2px solid;
-  border-color: #4681ab;
+  border-color: #50b6ff;
   padding: 2em;
   margin-inline: 2.5em;
   font-weight: bold;
@@ -39,7 +39,7 @@ h3 {
 }
 
 .serviceElem i {
-  color: #4681ab;
+  color: #28a3fc;
   margin-block: .5em;
   display: flex;
   justify-content: center;
@@ -98,8 +98,8 @@ button,
 button:hover,
 .contactBtn:hover,
 .aboutBtn:hover {
-  border-color: #236591;
-  color: #4681ab;
+  border-color: #3499dc;
+  color: #359de7;
   background-color: #000000;
   text-decoration: none;
   padding: 10px;

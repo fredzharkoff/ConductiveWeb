@@ -65,6 +65,7 @@ nav {}
   border-bottom-color: #699eff;
   color: #699eff;
   padding: 10px;
+  transition: .3s;
 }
 
 

@@ -1,26 +1,24 @@
 main {
-    display: flex;
 }
 
 .dify,
 .diy {
-    display: flex;
-    width: 50%;
-    height: 50em;
-    background: linear-gradient(#000000, #2275da, #000000);
-    opacity: .8;
+    text-align: center;
+    border: 1px solid;
+    width: 100%;
+    height: 25em;
+    opacity: .5;
+    padding: 10em 0;
 }
 
 .aAlign {
-    color: aliceblue;
-    text-align: center;
-    padding: 0;
-    width: 100%;
-    padding-block: 30%;
+    padding: 10.5em;
+    color: rgb(254, 254, 254);
 }
 
 .dify:hover,
 .diy:hover {
-    transition: .5s;
+    background: linear-gradient(#000000,  #000000 , #1d8aff, #000000 , #000000);
+    transition: 1s;
     opacity: 1;
 }

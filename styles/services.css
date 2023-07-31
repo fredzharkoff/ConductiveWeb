@@ -1,10 +1,10 @@
 h1{
-    margin-block: 3em;
+    margin-block: 4em;
  text-align: center;
 }
 
 h2 , h3, h4{
-    margin-block: 1em;
+    margin-bottom: 1em;
     font-size: 2em;
 }
 
@@ -21,7 +21,7 @@ h5 {
     display: flex;
     margin-inline: auto;
     width: 85%;
-    margin-block: 20em;
+    margin-bottom: 10em;
 }
 .servSectLeft div {
     width: 85%;
@@ -53,9 +53,11 @@ width: 80%;
 .servSectBottom {
     text-align: center;
 margin-top: 40em;
-margin-bottom: -5em;
+margin-bottom: -20em;
 }
 
 .servSectBottom div{
-width: 50%;
+    padding: 2em;
+    font-weight: bold;
+    width: 60%;
 }

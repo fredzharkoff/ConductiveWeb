@@ -32,7 +32,7 @@ function fadeInOnScroll(element) {
 	var opacity = 0;
 	
 	if (scrollTop > distanceToTop) {
-		opacity = 0 + (scrollTop - distanceToTop) / elementHeight;
+		opacity = 0 + ((scrollTop - distanceToTop) / elementHeight) / 1.5;
 	}
 
 	if (opacity >= 0) {
@@ -58,7 +58,7 @@ function imageTransition(element) {
 	var scrollTop = document.documentElement.scrollTop + 1000;
 	
 	if (scrollTop > distanceToTop) {
-		element.style.transform = "translateY(-20em)";
+		element.style.transform = "translateY(-25em)";
         element.style.transitionDuration= "1s";
 	}
 }
