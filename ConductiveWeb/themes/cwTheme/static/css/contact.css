@@ -1,7 +1,8 @@
+
 h1 {
     text-align: center;
     text-transform: uppercase;
-    margin-block: 2em;
+    margin-block: 3em;
 }
 
 h2 {
@@ -41,9 +42,6 @@ textarea {
     height: 10em;
 }
 
-form {
-    margin-bottom: 10em;
-}
 
 button {
     border-color: #111111;
@@ -89,3 +87,5 @@ p {
     width: 8em;
 
 }
+
+

@@ -1,24 +1,41 @@
-main {
+/* .dify {
+    margin-top: 3em;
+    background-image: ;
 }
+
+.diy {
+    background-image: ;
+} */
 
 .dify,
 .diy {
     text-align: center;
-    border: 1px solid;
     width: 100%;
     height: 25em;
     opacity: .5;
     padding: 10em 0;
 }
 
-.aAlign {
-    padding: 10.5em;
+.aAlign1, .aAlign2 {
+    font-size: 2em;
     color: rgb(254, 254, 254);
+}
+
+.aAlign1:hover , .aAlign2:hover{
+    color: rgb(254, 254, 254);
+}
+
+.aAlign1 {
+    padding: 6em;
+}
+
+.aAlign2 {
+padding: 5em;
 }
 
 .dify:hover,
 .diy:hover {
-    background: linear-gradient(#000000,  #000000 , #1d8aff, #000000 , #000000);
+    background: linear-gradient(#000000, #1d8aff , #000000);
     transition: 1s;
     opacity: 1;
 }
