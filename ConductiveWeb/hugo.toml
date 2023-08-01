@@ -1,0 +1,4 @@
+baseURL = 'http://conductiveweb.com/'
+languageCode = 'en-us'
+title = 'Conductive Web'
+theme = 'cwTheme'
