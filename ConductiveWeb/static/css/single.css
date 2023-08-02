@@ -1,0 +1,24 @@
+main {
+    padding: 0;
+    margin-inline: 15%;
+    display: block;
+}
+
+h1 {
+    margin-top: 3em
+}
+
+p img {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin-bottom: 6em;
+}
+
+img[alt=banner] {
+    margin-top: 1em;
+    width: 40%;
+    height: 30em;
+}

@@ -3,7 +3,8 @@
   padding: 0;
   font-family: "Pt Sans", sans-serif, monospace;
 }
-#main{
+
+main{
   color: #ffffff;
 }
 
@@ -19,13 +20,8 @@ header a {
   color: #EEEEEE;
 }
 
-a:hover {
-  color: #2452a8;
-  border-color: #222831;
-}
-
 a {
-  color: #295baaaa;
+  color: #1672a7;
   text-decoration: none;
   padding: 10px;
 }
@@ -47,24 +43,45 @@ p {
 }
 
 .navLink {
-  padding: 10px;
+  margin: .8em;
   font-weight: bolder;
-  font-size: 26px;
+  font-size: 1.8em;
   display: inline-block;
 }
 
 .navLinkStyle {
+  padding: 0;
+  margin: 0;
   color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.navLinkStyle::before {
+  content: "";
+  position: absolute;
+  top: 80%;
+  width: 110%;
+  height: 180%;
+  background-image: url("/images/crackle.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+  background-color: transparent;
 }
 
 
 .navLinkStyle:hover {
-  transition-duration: .1s;
-  border-bottom: 3px solid;
-  border-bottom-color: #699eff;
-  color: #699eff;
-  padding: 10px;
-  transition: .3s;
+  color: #ffffff;
+}
+
+
+
+.navLinkStyle:hover::before {
+  opacity: 1;
 }
 
 

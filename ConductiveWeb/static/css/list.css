@@ -1,0 +1,57 @@
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-inline: 15%;
+    margin-top: 3em;
+}
+
+h2 {
+    margin-inline: 15%;
+}
+
+h3 {
+margin-top: .5em;
+}
+
+.postContainer a {
+    color: #6cc2ff;
+}
+
+.postContainer p {
+    margin-left: 3%;
+}
+
+.postContainer {
+    padding: 3em;
+    margin: 2em;
+    display: block;
+}
+
+.postContainer img {
+    border-radius: 5%;
+}
+
+.listOfPosts {
+    margin-inline: 10em;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+button {
+    border-color: rgb(104, 195, 255);
+    text-transform: uppercase;
+    background-color:  rgb(104, 195, 255);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.7s;
+}
+
+
+button:hover {
+    border-color:rgb(104, 195, 255);
+    background-color: #000000;
+    color:rgb(104, 195, 255);
+    text-decoration: none;
+    padding: 10px;
+}

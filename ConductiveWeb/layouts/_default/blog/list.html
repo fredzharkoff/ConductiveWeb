@@ -1,0 +1,21 @@
+{{ define "main" }}
+<link rel='stylesheet' href='/css/list.css'>
+
+<h1>Blog</h1>
+<h2>Content and Articles to start electrifying your online presence today!</h2>
+<section class="listOfPosts">
+{{ range .Pages.ByPublishDate.Reverse }}
+
+<div class="postContainer">
+    {{ with .Resources.GetMatch "banner.jpg" }}
+  <img src="{{ .RelPermalink }}" width="350" height="350">
+{{ end }}
+    <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Summary }}</p>
+        <a class="postBtn" href="{{ .RelPermalink }}"><button>Read More</button></a>
+</div>
+
+{{ end }} 
+
+</section>
+{{ end }}
