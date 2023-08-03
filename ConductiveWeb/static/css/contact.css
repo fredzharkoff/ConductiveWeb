@@ -1,11 +1,13 @@
 
 h1 {
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     margin-block: 3em;
 }
 
 h2 {
+    font-weight: bold;
     font-size: 2em;
     text-transform: uppercase;
     color: #539ccd;
@@ -76,7 +78,7 @@ button:hover {
 
 p {
     margin-top: 1em;
-    width: 30%;
+    width: 20%;
 }
 
 .compPhone {

@@ -1,7 +1,7 @@
 
 main {
   background-image: url("/images/V4B.png");
-  background-position: 170% 130%;
+  background-position: 170% 110%;
   background-size: 70%;
   background-repeat: no-repeat;
 }
@@ -21,14 +21,18 @@ main {
   width: 27em;
 }
 
-.serviceElemAlign,
-h4,
-h1,
-h2,
-h3 {
+.serviceElemAlign, h1
+{
   margin-block: 2em;
   display: flex;
   justify-content: center;
+}
+
+.edgeTxt {
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: .5em;
+  margin-top: 3em;
 }
 
 .serviceElem p {
@@ -46,8 +50,13 @@ h3 {
 }
 
 h1 {
+  font-weight: bold;
   color: rgb(255, 255, 255);
   margin-bottom: 3em;
+}
+
+h3 {
+font-size: 1.2em;
 }
 
 
@@ -69,17 +78,36 @@ h1 {
   text-align: center;
 }
 
-.aboutSect {
-  margin-top: 7em;
-  display: flex;
-  justify-content: center;
+.aboutSect{
+  margin-bottom: 20em;
+  margin-top: 15em;
+  margin-inline: 15%;
 }
 
 .aboutAlign {
-  width: 50%;
-  display: block;
-  justify-content: center;
-  text-align: center;
+  display: flex;
+}
+
+.aboutAlign h2{
+  font-weight: bold;
+  margin-block: 1em;
+}
+
+.aboutAlign div {
+  width: 40%;
+margin-right: 10em;
+}
+
+.aboutAlign img {
+  width: 60%;
+}
+
+.blogSect h2{
+  margin-inline: 10%;
+}
+
+.blogSect h2 {
+  font-weight: bold;
 }
 
 button,
@@ -88,7 +116,7 @@ button,
   border-color: #000001;
   margin-top: 1em;
   text-transform: uppercase;
-  background-color: rgb(25, 149, 191);
+  background-color: rgb(91, 201, 245);
   color: #ffffff;
   text-decoration: none;
   padding: 10px;
@@ -98,15 +126,16 @@ button,
 button:hover,
 .contactBtn:hover,
 .aboutBtn:hover {
-  border-color: #3499dc;
-  color: #359de7;
+  border-color: #9bd7ff;
+  color: #67c0ff;
   background-color: #000000;
   text-decoration: none;
   padding: 10px;
 }
 
 .contactTxt,
-.aboutTxt {
+.aboutTxt,
+.blogTxt {
   font-size: 20px;
 }
 

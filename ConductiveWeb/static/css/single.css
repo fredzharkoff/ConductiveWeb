@@ -1,24 +1,25 @@
 main {
-    padding: 0;
     margin-inline: 15%;
     display: block;
 }
 
 h1 {
-    margin-top: 3em
-}
-
-p img {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    margin-top: 3em;
 }
 
 p {
+    margin-top: 3em;
     margin-bottom: 6em;
 }
 
-img[alt=banner] {
-    margin-top: 1em;
-    width: 40%;
-    height: 30em;
+.banner {
+    margin-block: 6em;
+}
+
+.banner img {
+    width: 50%;
+    height: 40em;
+    display: block;
+    margin: auto;
 }

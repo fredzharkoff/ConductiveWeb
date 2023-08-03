@@ -10,32 +10,10 @@ h2 {
 }
 
 h3 {
+    font-size: 1.3em;
 margin-top: .5em;
 }
 
-.postContainer a {
-    color: #6cc2ff;
-}
-
-.postContainer p {
-    margin-left: 3%;
-}
-
-.postContainer {
-    padding: 3em;
-    margin: 2em;
-    display: block;
-}
-
-.postContainer img {
-    border-radius: 5%;
-}
-
-.listOfPosts {
-    margin-inline: 10em;
-    display: flex;
-    flex-wrap:wrap;
-}
 
 button {
     border-color: rgb(104, 195, 255);

@@ -1,4 +1,5 @@
 baseURL = 'http://conductiveweb.com/'
 languageCode = 'en-us'
 title = 'Conductive Web'
+summaryLength = 20
 

@@ -1,10 +1,14 @@
 ---
 title: Three Ways in Maximizing Online Reach, Strategies for Construction Businesses
+customcss: "/css/single.css"
+tags: 
+- hugo
+featured: true
 ---
 
 # Maximizing Online Reach: Three Strategies for Construction Businesses
 
-![banner](banner.jpg) 
+{{< figure src="banner.jpg" class="banner">}}
 
 
 ## 1. Build a Professional Website
