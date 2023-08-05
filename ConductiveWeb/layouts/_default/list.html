@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <h1>Blog</h1>
-<h2>Content and Articles on everything you need to know about digital marketing for construction.</h2>
+<h2>Content and Articles on everything you need to know about digital marketing for <div>construction</div></h2>
 <section class="listOfPosts">
 {{ range .Pages.ByPublishDate.Reverse }}
 
@@ -11,7 +11,7 @@
 {{ end }}
     <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         <p>{{ .Summary }}</p>
-        <a class="postBtn" href="{{ .RelPermalink }}"><button>Read More</button></a>
+        <a class="postBtn" href="{{ .RelPermalink }}"><button><b>Read More</b></button></a>
 </div>
 
 {{ end }} 

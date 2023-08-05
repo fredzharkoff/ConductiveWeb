@@ -1,0 +1,97 @@
+section li,
+section ul {
+    margin-block: .7em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.link {
+    margin: 0;
+    color: #ffffff;
+}
+
+.link:hover li{
+    -webkit-animation:glow 100s ease-in;
+    -moz-animation:glow 100s ease-in;
+    animation: glow 100s ease-in;
+}
+
+.lightning {
+  margin-bottom: -0.3em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+h2 div {
+    display: inline;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff;
+  to {
+    text-shadow: 0 0 15px #fff;
+  }
+}
+}
+
+h3 {
+    font-size: 1em;
+    color:  #1672a7;
+  font-weight: bold;
+}
+
+.retainerList {
+    list-style: none;
+    padding: 1em;
+    border: 5px dashed  #1672a7;
+}
+
+
+.bundleList , .retainer{
+    list-style: url(/images/favicons/favicon-16x16.png);
+}
+
+.bundle1 {
+  margin: 0 auto;
+  border-radius: 5%;
+  padding: 2em;
+  width: 50%;
+  display: block;
+  justify-content: center;
+  border: 6px solid  #6cb4dd;
+  margin-bottom: 3em;
+}
+
+.bundle3 {
+    margin: 0 auto;
+    border-radius: 5%;
+    padding: 2em;
+    width: 40%;
+    display: block;
+    justify-content: center;
+    border: 6px solid   #6cb4dd;
+    margin-bottom: 15em;
+}
+
+
+.bundle2, .retainer {
+    margin: 0 auto;
+    border-radius: 5%;
+    padding: 2em;
+    width: 50%;
+    display: block;
+    justify-content: center;
+    border: 6px solid  #6cb4dd;
+    margin-bottom: 15em;
+  }

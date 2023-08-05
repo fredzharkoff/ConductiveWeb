@@ -24,6 +24,18 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-block: 3em;
+  font-size: 3em;
+}
+
+h2, h3 ,h4, h5 {
+  text-transform: uppercase;
+}
+
 footer a {
   color: #1672a7;
   padding: 10px;
@@ -31,7 +43,7 @@ footer a {
 
 p {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 
@@ -47,7 +59,9 @@ p {
 }
 
 .navLink {
+  text-transform: uppercase;
   margin: .8em;
+  padding-top: .5em;
   font-weight: bolder;
   font-size: 1.8em;
   display: inline-block;
@@ -89,7 +103,11 @@ p {
 }
 
 .postContainer a {
-  color: #6cc2ff;
+  color:  #6cb4dd;
+}
+
+.title {
+  font-weight: bold;
 }
 
 .title, .postBtn {
@@ -97,6 +115,8 @@ padding: 0;
 }
 
 .postContainer {
+  border-radius: 5%;
+  background-color: #0f0f0f;
   width: 30%;
   padding: 3em;
   margin: 2em;
@@ -104,7 +124,14 @@ padding: 0;
 }
 
 .postContainer img {
+  margin-left: 1em;;
   border-radius: 5%;
+  margin-bottom: 1em;
+}
+
+.postContainer p {
+  font-weight: 100;
+  margin-bottom: 0;
 }
 
 .listOfPosts {
@@ -113,51 +140,77 @@ padding: 0;
   flex-wrap:wrap;
 }
 
+.postContainer button{
+  border-color: #0f0f0f;
+}
+
+.postContainer button:hover {
+  background-color: #0f0f0f;
+}
+
+/* button */
+
+button {
+  border-color: #000001;
+  margin-top: 1em;
+  text-transform: uppercase;
+  background-color:  #6cb4dd;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  transition-duration: 0.7s;
+}
+
+button:hover {
+  border-color: #6cb4dd;
+  color:  #6cb4dd;
+  background-color: #000000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+button b {
+  font-size: 1.3em;
+}
 
 
+
+/* footer */
 
 footer {
   bottom: 0;
   width: 100%;
   height: 15em;
   padding-top: 1em;
-  margin-top: 15em;
+  margin-top: 20em;
 }
 
 .footerContents {
-
+  margin-bottom: 3em;
   display: flex;
   justify-content: center;
+}
+
+.contactFooter {
+  display: flex;
 }
 
 
 .footerBrand {
   display: inline;
-  margin-top: -8em;
-  margin-right: 1.5em;
+}
+
+.footerBrand {
+  display: inline;
+  margin-top: -2em;
 }
 
 .companyContact {
   display: inline;
+  justify-content: center
 }
 
-
-.hamburgerMenu {
-  visibility: hidden;
-}
-
-#instagram:hover {
-  color: #7a3495;
-}
-
-#facebook:hover {
-  color: #1b5ec3;
-}
-
-#linkedin:hover {
-  color: #0a3472;
-}
-
-#phone:hover {
-  color: #bbb9b9;
+.companyContact a:hover{
+  transition: 500ms;
+  color: #bbdeff;
 }

@@ -13,12 +13,13 @@ main {
 }
 
 .serviceElem {
+  border-radius: 5%;
   border: 2px solid;
-  border-color: #50b6ff;
+  border-color:  #6cb4dd;
   padding: 2em;
   margin-inline: 2.5em;
   font-weight: bold;
-  width: 27em;
+  width: 22%;
 }
 
 .serviceElemAlign, h1
@@ -35,7 +36,7 @@ main {
   margin-top: 3em;
 }
 
-.serviceElem p {
+.serviceElem h2, .serviceElem p {
   margin: 0;
   margin-top: 1em;
   text-align: center;
@@ -43,17 +44,13 @@ main {
 }
 
 .serviceElem i {
-  color: #28a3fc;
+  color:  #6cb4dd;
   margin-block: .5em;
   display: flex;
   justify-content: center;
 }
 
-h1 {
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  margin-bottom: 3em;
-}
+
 
 h3 {
 font-size: 1.2em;
@@ -94,11 +91,12 @@ font-size: 1.2em;
 }
 
 .aboutAlign div {
-  width: 40%;
+  width: 60%;
 margin-right: 10em;
 }
 
 .aboutAlign img {
+  border-radius: 5%;
   width: 60%;
 }
 
@@ -110,32 +108,4 @@ margin-right: 10em;
   font-weight: bold;
 }
 
-button,
-.contactBtn,
-.aboutBtn {
-  border-color: #000001;
-  margin-top: 1em;
-  text-transform: uppercase;
-  background-color: rgb(91, 201, 245);
-  color: #ffffff;
-  text-decoration: none;
-  padding: 10px;
-  transition-duration: 0.7s;
-}
-
-button:hover,
-.contactBtn:hover,
-.aboutBtn:hover {
-  border-color: #9bd7ff;
-  color: #67c0ff;
-  background-color: #000000;
-  text-decoration: none;
-  padding: 10px;
-}
-
-.contactTxt,
-.aboutTxt,
-.blogTxt {
-  font-size: 20px;
-}
 

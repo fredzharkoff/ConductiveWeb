@@ -1,11 +1,5 @@
-h1 {
-    font-size: 3em;
-    font-weight: bold;
-    margin-inline: 15%;
-    margin-top: 3em;
-}
-
 h2 {
+    text-align: center;
     margin-inline: 15%;
 }
 
@@ -14,22 +8,7 @@ h3 {
 margin-top: .5em;
 }
 
-
-button {
-    border-color: rgb(104, 195, 255);
-    text-transform: uppercase;
-    background-color:  rgb(104, 195, 255);
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px;
-    transition-duration: 0.7s;
-}
-
-
-button:hover {
-    border-color:rgb(104, 195, 255);
-    background-color: #000000;
-    color:rgb(104, 195, 255);
-    text-decoration: none;
-    padding: 10px;
+h2 div {
+    display: inline;
+    text-decoration: underline;
 }

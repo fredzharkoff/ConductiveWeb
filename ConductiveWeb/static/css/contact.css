@@ -1,16 +1,8 @@
-
-h1 {
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    margin-block: 3em;
-}
-
 h2 {
     font-weight: bold;
     font-size: 2em;
     text-transform: uppercase;
-    color: #539ccd;
+    color:  #6cb4dd;
     margin-bottom: 1em;
 }
 
@@ -24,7 +16,7 @@ input,
 textarea {
     border-style: solid;
     border-width: 1px;
-    border-color: slategray;
+    border-color: #535353;
     color: #ffffff;
     background-color: black;
     width: 35em;
@@ -44,26 +36,6 @@ textarea {
     height: 10em;
 }
 
-
-button {
-    border-color: #111111;
-    margin-top: 1em;
-    text-transform: uppercase;
-    background-color: rgb(92, 195, 255);
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px;
-    transition-duration: 0.7s;
-}
-
-
-button:hover {
-    border-color: #93cef5;
-    color: #93cef5;
-    background-color: #111111;
-    text-decoration: none;
-    padding: 10px;
-}
 
 .contactSection {
     margin-top: 9em;
