@@ -3,12 +3,13 @@ title: Contact
 customcss: /css/contact.css
 ---
 <script src="https://www.google.com/recaptcha/api.js" async defer>
-  window.addEventListener('load', () => {
-  const $recaptcha = document.querySelector('#g-recaptcha-response');
-  if ($recaptcha) {
-    $recaptcha.setAttribute('required', 'required');
-  }
-})
+window.onload = function() {
+var $recaptcha = document.querySelector('#g-recaptcha-response');
+
+if($recaptcha) {
+$recaptcha.setAttribute("required", "required");
+}
+};
 </script>
 <h1><b>Your Partner in Construction Digital Marketing - <br>Lets Connect !</b></h1>
 <section class="contactSection">
@@ -28,7 +29,7 @@ customcss: /css/contact.css
         <textarea id="message" name="visitor_message" placeholder="How can we assist you?*" required></textarea>
       </div>
       <div class="elem-group">
-        <div class="g-recaptcha" data-sitekey="6LeirW4nAAAAAE9adkMykQHgXoyht3bA9yuzcyZ7" ></div>
+        <div id="g-recaptcha-response" class="g-recaptcha" data-sitekey="6LeirW4nAAAAAE9adkMykQHgXoyht3bA9yuzcyZ7" ></div>
       </div>
       <div class="elem-group">
         <button type="submit"><b>Send Message ></b></button>
