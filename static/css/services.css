@@ -102,7 +102,7 @@ margin-bottom: -20em;
 
     #socialMedia {
     height: 15em;
-       width: min-content;
+       width: fit-content;
        margin: 1em auto;
     }
 
