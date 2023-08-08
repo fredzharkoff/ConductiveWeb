@@ -96,7 +96,7 @@ h3 {
     margin-bottom: 15em;
   }
 
-  @media screen and (max-width: 120px) {
+  @media screen and (max-width: 1280px) {
 
     h2 video {
         width: 60%;
