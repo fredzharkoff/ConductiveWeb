@@ -18,8 +18,15 @@ p {
 }
 
 .banner img {
-    width: 50%;
-    height: 40em;
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.blogImage {
+    width: 30%;
+    height: auto;
     display: block;
     margin: auto;
 }
@@ -31,8 +38,8 @@ main {
     h1 {
         margin-inline: 0;
     }
-    }
     .banner img {
         width:100%;
         height: auto;
+    }
     }
