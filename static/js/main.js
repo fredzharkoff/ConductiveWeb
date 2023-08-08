@@ -33,3 +33,22 @@ document.addEventListener("DOMContentLoaded", function () {
       x.className = "container-fluid";
     }
   } 
+
+  var videoLocation = getElementById('vid')
+
+  if(window.innerWidth <992){
+    videoLocation.removeAttribute("autoplay");
+        };
+
+
+        var videoLocation2 = getElementsByClassName('lightning')
+
+  if(window.innerWidth <992){
+    videoLocation2.removeAttribute("autoplay");
+        };
+
+        var videoLocation3 = getElementsByClassName('floatingTxt')
+
+  if(window.innerWidth <992){
+    videoLocation3.removeAttribute("autoplay");
+        };

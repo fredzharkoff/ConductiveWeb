@@ -17,7 +17,12 @@ body {
 }
 
 header {
+  margin-bottom: 10em;
   background-color: #000000;
+}
+
+nav {
+  background-color: #000000be;
 }
 
 header a {
@@ -60,7 +65,7 @@ p {
 .navBrand {
   margin-left: 2em;
   margin-top: .5em;
-  margin-right: 40%;
+  margin-right: 50%;
 }
 
 .navLink {
