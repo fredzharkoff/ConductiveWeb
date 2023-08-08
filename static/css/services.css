@@ -81,33 +81,24 @@ margin-bottom: -20em;
         margin-inline: 0;
     }
 
-    #megaphone {
+    #megaphone, #socialMedia, .floatingTxt {
       height: auto;
        width: 100%;
        margin: 1em auto;
     }
 
-    .floatingTxt {
-        margin-top: 1em;
-        width: 100%;
-        height: 10%;
+    .servSectBottom img {
+        width: 50%;
     }
+
+
+
     h2 {
         text-align: center;
     }
 
     h3 {
        margin-left: 0;
-    }
-
-    #socialMedia {
-    height: 15em;
-       width: fit-content;
-       margin: 1em auto;
-    }
-
-    .servSectBottom img {
-        width: fit-content;
     }
     .servSectBottom {
     margin-bottom: 0;
