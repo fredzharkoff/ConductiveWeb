@@ -18,7 +18,6 @@ main {
   border-color:  #6cb4dd;
   padding: 2em;
   margin-inline: 2.5em;
-  font-weight: bold;
   width: 22%;
 }
 
@@ -106,6 +105,15 @@ margin-right: 10em;
 
 .blogSect h2 {
   font-weight: bold;
+}
+
+@media screen and (max-width: 1500px) {
+  
+  .electricTxt{
+    width: 100%;
+    height: 29em;
+  }
+
 }
 
 

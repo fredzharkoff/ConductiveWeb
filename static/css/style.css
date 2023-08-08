@@ -1,7 +1,11 @@
+@font-face {
+  font-family: "ExcludedFont";
+  src: url('http://conductiveweb.com/static/font/Excluded-z8XrX.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Pt Sans", sans-serif, monospace;
 }
 
 main{
@@ -9,6 +13,7 @@ main{
 }
 
 html {
+  font-family: "ExcludedFont";
   background-color: #000000;
 }
 
@@ -30,11 +35,10 @@ a {
 }
 
 h1 {
-  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   margin-block: 3em;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 h2, h3 ,h4, h5 {
@@ -47,7 +51,6 @@ footer a {
 }
 
 p {
-  font-weight: bold;
   font-size: 1.2em;
 }
 
@@ -60,16 +63,17 @@ p {
 }
 
 .navBrand {
-  margin-left: 2.5em;
-  margin-right: 50%;
+  margin-left: 2em;
+  margin-top: .5em;
+  margin-right: 40%;
 }
 
 .navLink {
   text-transform: uppercase;
   margin: .8em;
+  font-weight: bold;
   padding-top: .5em;
-  font-weight: bolder;
-  font-size: 1.8em;
+  font-size: 1.7em;
   display: inline-block;
 }
 
@@ -89,8 +93,8 @@ p {
   content: "";
   position: absolute;
   top: 80%;
-  width: 110%;
-  height: 180%;
+  width: 100%;
+  height: 230%;
   background-image: url("/images/crackle.gif");
   background-size: contain;
   background-repeat: no-repeat;
@@ -244,10 +248,10 @@ footer {
 
   .navBrand {
     margin: 0;
-    margin-top: .3em;
+    margin-top: .5em;
   }
 
-  .navBrandSize {
+ .navBrandSize {
     height: 4em;
     width: 15em;
   }
@@ -293,9 +297,7 @@ footer {
   }
 
   .postContainer p {
-    visibility: hidden;
-    width: 0;
-    height: 0;
+    display: none;
   }
 
   .postContainer img {
@@ -340,6 +342,7 @@ footer {
 }
 
 @media screen and (max-width: 1500px) {
+  
   .navBrand {
     margin-right: 15%;
   }
