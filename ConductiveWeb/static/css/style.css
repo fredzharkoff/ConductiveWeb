@@ -48,9 +48,8 @@ p {
 }
 
 
-
 .cwNav {
-  width: 100%;
+  width: fit-content;
   display: flex;
   margin-top: 0.5em;
   margin-right: 4em;
@@ -333,5 +332,17 @@ footer {
    
   .postContainer img{
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .navBrand {
+    margin-right: 15%;
+  }
+
+  .postContainer img {
+    margin-inline: 0;
+    height: 15em;
+    width: 15em;
   }
 }
