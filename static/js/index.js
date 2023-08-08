@@ -26,5 +26,3 @@ function scrollHandler() {
 
 
 window.addEventListener('scroll', scrollHandler);
-
-$('body').on('click touchstart', function ()  {var videoElement = document.getElementsByClassName('electricTxt');if (videoElement.playing) {} else {$('.electricTxt').trigger('play');}});

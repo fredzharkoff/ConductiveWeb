@@ -2,7 +2,9 @@
 <script src="/js/index.js" defer></script>
 <link rel="stylesheet" href="/css/index.css">
 
-
+<script>
+    $('body').on('click touchstart', function ()  {var videoElement = document.getElementsByClassName('electricTxt');if (videoElement.playing) {} else {$('.electricTxt').trigger('play');}});
+</script>
 <div class="electricTxtAlign">
     <video class="electricTxt" width="80%" height="650" preload autoplay muted loop playsinline src="/images/electric.mp4" alt=""></video>
 </div>

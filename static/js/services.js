@@ -78,5 +78,3 @@ function scrollHandler5() {
 	}
 
 	window.addEventListener('scroll', scrollHandler3);
-
-	$('body').on('click touchstart', function ()  {var videoElement = document.getElementsByClassName('floatingTxt');if (videoElement.playing) {} else {$('.floatingTxt').trigger('play');}});

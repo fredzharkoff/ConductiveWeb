@@ -33,5 +33,3 @@ document.addEventListener("DOMContentLoaded", function () {
       x.className = "container-fluid";
     }
   } 
-
-  $('body').on('click touchstart', function ()  {var videoElement = document.getElementsByClassName('lightning');if (videoElement.playing) {} else {$('.lightning').trigger('play');}});
