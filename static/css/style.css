@@ -1,9 +1,5 @@
-@font-face {
-  font-family: "ExcludedFont";
-  src: url('http://conductiveweb.com/static/font/Excluded-z8XrX.ttf');
-}
-
 * {
+  font-family: Alata, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +9,6 @@ main{
 }
 
 html {
-  font-family: "ExcludedFont";
   background-color: #000000;
 }
 
@@ -165,7 +160,7 @@ padding: 0;
 /* button */
 
 button {
-  border-color: #000000;
+  border-color: #000001;
   margin-top: 1em;
   text-transform: uppercase;
   background-color:  #6cb4dd;
