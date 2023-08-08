@@ -34,3 +34,42 @@ h2, h3, h4 {
 section p {
     width: 90%;
 }
+
+@media screen and (max-width: 1280px)  {
+    .aboutSection {
+        margin-bottom: 0;
+        flex-direction: column-reverse;
+        width: fit-content;
+        text-align: center;
+    }
+   .aboutSection p {
+        width: 100%;
+    }
+
+    .aboutSection img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .founderSection {
+        margin-bottom: 0;
+        margin-inline: 1em;
+        flex-direction: column;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .founderSection div {
+        margin: 0;
+    }
+   .founderSection p {
+        width: 100%;
+    }
+
+    .founderSection img {
+        width: 80%;
+        height: auto;
+    }
+   
+}

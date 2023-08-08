@@ -63,3 +63,29 @@ p {
 }
 
 
+@media screen and (max-width: 1280px)  { 
+
+    .contactSection {
+        margin-inline: auto;
+        margin-bottom: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contactForm {
+        margin-inline: auto;
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+
+    .elem-group {
+        width: 100%;
+    }
+
+    .contactSection p {
+        width: 80%;
+        margin-inline: auto;
+    }
+}

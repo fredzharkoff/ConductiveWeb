@@ -1,19 +1,19 @@
 ---
 title: Privacy Policy
 ---
-    <h1>Privacy Policy for Conductive Web</h1>
+Privacy Policy for Conductive Web
 
-    <p> Date: July 28th, 2023 </p>
+Date: July 28th, 2023
 
-    <p>Thank you for visiting conductiveweb.com,
+    Thank you for visiting conductiveweb.com,
         a website owned and operated by Conductive Web, specializing
         in digital marketing services for the construction industry.
         We are committed to protecting your privacy and ensuring the
         security of your personal information. This privacy policy outlines
         the data we collect, how we use it, and the choices you have regarding your
         information.
-    </p>
-        <p>
+    
+    
             1. Information We Collect
 
             a. Personal Information:
@@ -103,5 +103,5 @@ title: Privacy Policy
 
             Fred Zharkoff (Owner, Conductive Web)
             Date: July 28th, 2023
-        </p>
+    
     

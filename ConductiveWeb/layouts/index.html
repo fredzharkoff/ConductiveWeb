@@ -7,10 +7,6 @@
     <video class="electricTxt" width="80%" height="650" autoplay muted loop src="/images/electric.mp4" alt=""></video>
 </div>
 
-
-<body>
-    <main>
-
         <h1><b>Specializing in Digital Marketing for Construction</b></h1>
 
         <div id="service" class="serviceElemAlign">
@@ -53,7 +49,7 @@
                     brand visibility, engagement, and conversions. Targeted ads, SEO, media, and captivating content set
                     you apart. Embrace the edge and ignite success.
                 </p>
-                <a href="contact.html"><button class="contactBtn"><b>Lets get
+                <a href="/contact"><button class="contactBtn"><b>Lets get
                             started</b></button></a>
             </div>
         </section>
@@ -75,7 +71,7 @@
                         meaningful connections between construction businesses and their target audiences,
                         revolutionizing the way they reach and engage with potential customers.
                     </p>
-                    <a href="about.html"><button class="aboutBtn"><b>Want to know
+                    <a href="/about"><button class="aboutBtn"><b>Want to know
                                 more?</b></button></a>
                 </div>
                 <img src="images/constructionSite.jpg" alt="" width="500" height="600">
@@ -84,7 +80,7 @@
 
         <section class="blogSect">
             <div class="blogAlign">
-                <h2>Check out our Featured Blog Posts!</h2>
+                <h2>Check out our Featured Blog Posts</h2>
                 <section class="listOfPosts">
                     {{ range first 3 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections)
                     ".Params.featured" "=" true) }}
@@ -101,6 +97,4 @@
                 </section>
             </div>
         </section>
-    </main>
-</body>
 {{ end }}

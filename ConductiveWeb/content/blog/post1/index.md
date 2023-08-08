@@ -6,9 +6,9 @@ tags:
 featured: true
 ---
 
-# Maximizing Online Reach: Three Strategies for Construction Businesses
-
 {{< figure src="banner.jpg" class="banner">}}
+
+# Maximizing Online Reach: Three Strategies for Construction Businesses
 
 
 ## 1. Build a Professional Website

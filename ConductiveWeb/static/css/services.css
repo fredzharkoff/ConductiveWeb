@@ -40,7 +40,7 @@ width: 80%;
 }
 
 #megaphone {
-    transform: translate(-25em, 0);
+    transform: translate(-100em, 0);
 }
 
 #socialMedia {
@@ -57,4 +57,62 @@ margin-bottom: -20em;
     padding: 2em;
     font-weight: bold;
     width: 60%;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .servSectLeft, .servSectRight, .servSectBottom {
+        display: flex;
+        width: fit-content;
+        margin-inline: 2em;
+        margin-bottom: 5em;
+    }
+
+    .servSectRight {    flex-direction: column;}
+    .servSectLeft, .servSectBottom {flex-direction: column-reverse;}
+
+    .servSectLeft div, .servSectRight div, .servSectBottom div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .servSectRight p, .servSectBottom p, .servSectBottom p{
+        width: 100%;
+        margin-inline: 0;
+    }
+
+    #megaphone {
+      height: auto;
+       width: 100%;
+       margin: 1em auto;
+    }
+
+    .floatingTxt {
+        margin-top: 1em;
+        width: 100%;
+        height: 10%;
+    }
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+       margin-left: 0;
+    }
+
+    #socialMedia {
+    height: 15em;
+       width: min-content;
+       margin: 1em auto;
+    }
+
+    .servSectBottom img {
+        width: fit-content;
+    }
+    .servSectBottom {
+    margin-bottom: 0;
+    }
+ footer {
+    margin-top: -15em;
+ }
 }

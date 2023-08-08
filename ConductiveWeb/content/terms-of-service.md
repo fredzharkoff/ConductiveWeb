@@ -1,10 +1,9 @@
 ---
 title: Terms & Conditions
 ---
-    <h1>Terms and Conditions for conductiveweb.com</h1>
-    <p>  Effective Date: July 28th, 2023</p>
+    Terms and Conditions for conductiveweb.com
+Effective Date: July 28th, 2023
     
-<p>
     Thank you for visiting conductiveweb.com, owned and operated by Conductive Web. These terms and conditions govern your use of our website and the services we offer related to digital marketing for the construction industry. By accessing or using our website and services, you agree to comply with these terms. If you do not agree with any part of these terms, please refrain from using our website and services.
 
 1. Definitions
@@ -77,4 +76,4 @@ By using conductiveweb.com, you acknowledge that you have read, understood, and 
 
 Fred Zharkoff (Owner, Conductive Web)
 Date: July 28th, 2023
-    </p>
+

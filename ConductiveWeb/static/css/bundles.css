@@ -95,3 +95,21 @@ h3 {
     border: 6px solid  #6cb4dd;
     margin-bottom: 15em;
   }
+
+  @media screen and (max-width: 120px) {
+
+    h2 video {
+        width: 60%;
+        height: 30%;
+    }
+    h2 {
+        margin-inline: 1em;
+        font-size: 1.5em;
+    }
+
+    .bundle1, .bundle2, .bundle3, .retainer {
+        width: 90%;
+        margin: auto auto;
+        margin-bottom: 8em;
+    }
+}

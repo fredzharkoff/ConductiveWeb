@@ -23,3 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Update the CSS of the <style> element with the new lightning position.
     lightning.innerHTML = lightningCSS;
   }
+
+
+  function barMenu() {
+    var x = document.getElementById("navCont");
+    if (x.className === "container-fluid") {
+      x.className += " responsive";
+    } else {
+      x.className = "container-fluid";
+    }
+  } 

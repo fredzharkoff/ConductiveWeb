@@ -1,18 +1,20 @@
 <header id="header">
     <nav id="navBar" class="navbar sticky-top" aria-label="site navigation">
-        <div class="container-fluid">
-            <a class="navBrand" href="/">
-                <img class="navBrandSize" width="400" height="90" src="/images/navbrand.png"
-                    alt="">
-            </a>
-        
+        <div id="navCont" class="container-fluid">
             <aside class="sidebar">
-                <ul class="cwNav">
+                <ul id="cwNavId" class="cwNav">
+                    <a class="navBrand" href="/">
+                        <img class="navBrandSize" width="400" height="90" src="/images/navbrand.png"
+                            alt="">
+                    </a>
                     <li class="navLink"><a class="navLinkStyle" href="/bundles">Bundles</a></li>
                     <li class="navLink"><a class="navLinkStyle" href="/services">Services</a></li>
                     <li class="navLink"><a class="navLinkStyle" href="/about">About</a></li>
                     <li class="navLink"><a class="navLinkStyle" href="/blog">Blog</a></li>
                     <li class="navLink"><a class="navLinkStyle" href="/contact">Contact</a></li>
+                    <a href="javascript:void(0);" class="icon" onclick="barMenu()">
+                        <i class="bi bi-list"></i>
+                        </a>
                 </ul>
         </div>
     </nav>
