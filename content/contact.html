@@ -3,14 +3,24 @@ title: Contact
 customcss: /css/contact.css
 ---
 <script src="https://www.google.com/recaptcha/api.js" async defer>
-window.onload = function() {
-var $recaptcha = document.querySelector('#g-recaptcha-response');
+function checkRecaptcha() {
+    res = $('#g-recaptcha-response').val();
 
-if($recaptcha) {
-$recaptcha.setAttribute("required", "required");
+    if (res == "" || res == undefined || res.length == 0)
+        return false;
+    else
+        return true;
 }
-};
+
+$('#contact-form').submit(function(e) {
+
+    if(!checkRecaptcha()) {
+        $( "#form-result" ).text("Please validate your reCAPTCHA.");
+        return false;
+    }
+});
 </script>
+
 <h1><b>Your Partner in Construction Digital Marketing - <br>Lets Connect !</b></h1>
 <section class="contactSection">
   <div class="contactForm">

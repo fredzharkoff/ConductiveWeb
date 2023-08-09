@@ -5,7 +5,12 @@ main {
 
 h1 {
     text-align: center;
-    margin-top: 3em;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+
+h2 {
+color: #6cb4dd;
 }
 
 p {
@@ -14,18 +19,18 @@ p {
 }
 
 .banner {
-    margin-block: 6em;
+    margin-block: 1em;
 }
 
 .banner img {
-    width: 40%;
+    width: 90%;
     height: auto;
     display: block;
     margin: auto;
 }
 
-.blogImage {
-    width: 30%;
+.blogImage img {
+    width: 70%;
     height: auto;
     display: block;
     margin: auto;
@@ -40,6 +45,11 @@ main {
     }
     .banner img {
         width:100%;
+        height: auto;
+    }
+
+    .blogImage img {
+        width: 80%;
         height: auto;
     }
     }
