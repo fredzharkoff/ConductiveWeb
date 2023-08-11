@@ -21,6 +21,7 @@ header {
 }
 
 nav {
+  padding: 0;
   background-color: #000000be;
 }
 
@@ -70,9 +71,8 @@ p {
 
 .navLink {
   text-transform: uppercase;
-  margin: .8em;
+  padding: .8em;
   font-weight: bold;
-  padding-top: .5em;
   font-size: 1.7em;
   display: inline-block;
 }
@@ -83,10 +83,14 @@ p {
 
 .navLinkStyle {
   padding: 0;
-  margin: 0;
   color: #ffffff;
   position: relative;
   z-index: 1;
+}
+
+.navLink:hover {
+  transition: .3s;
+  background-color: #7070705d;
 }
 
 
