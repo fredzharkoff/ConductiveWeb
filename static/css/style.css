@@ -17,7 +17,6 @@ body {
 }
 
 header {
-  margin-bottom: 15em;
   background-color: #000000;
 }
 
@@ -90,32 +89,6 @@ p {
   z-index: 1;
 }
 
-.navLinkStyle::before {
-  content: "";
-  position: absolute;
-  top: 80%;
-  width: 100%;
-  height: 230%;
-  background-image: url("/images/crackle.gif");
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-  z-index: -1;
-  background-color: transparent;
-}
-
-
-.navLinkStyle:hover {
-  color: #ffffff;
-}
-
-
-
-.navLinkStyle:hover::before {
-  opacity: 1;
-}
 
 .postContainer a {
   color:  #6cb4dd;
@@ -173,7 +146,7 @@ button {
   color: #ffffff;
   text-decoration: none;
   padding: 10px;
-  transition-duration: 0.7s;
+  transition-duration: .5s;
 }
 
 button:hover {

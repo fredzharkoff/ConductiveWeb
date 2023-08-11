@@ -6,6 +6,12 @@ main {
   background-repeat: no-repeat;
 }
 
+.electricTxt{
+  width: 100%;
+  height: 51em;
+}
+
+
 .serviceHeader {
   color:  #6cb4dd;
   font-weight: bold;
@@ -124,8 +130,10 @@ margin-right: 10em;
 @media screen and (max-width: 1280px) {
   .electricTxt{
     width: 100%;
-    height: 32em;
-        }
+    height: 37em;
+  }
+
+
 
         .serviceElemAlign {
           width: fit-content;
