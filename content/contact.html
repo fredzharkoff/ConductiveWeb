@@ -9,24 +9,25 @@ customcss: /css/contact.css
 <section class="contactSection">
   <div class="contactForm">
     <h2><b>Contact Us</b></h2>
-    <form id="contact-form" action="https://getform.io/f/c5cc3730-b012-46d7-a995-c94a6852c199" method="POST" enctype="multipart/form-data">
+    <form id="contact-form" action="https://formkeep.com/f/18e410dd9d5b" accept-charset="UTF-8" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_redirect_url" value="https://conductiveweb.com/success">
       <div class="elem-group">
-        <input type="text" id="name" name="visitor_name" placeholder="Name*" pattern=[A-Z\sa-z]{3,20} required>
+        <input type="text" id="name" name="name" placeholder="Name*" pattern=[A-Z\sa-z]{3,20} required>
       </div>
       <div class="elem-group">
-        <input type="email" id="email" name="visitor_email" placeholder="Email*" aria-describedby="emailHelp" required>
+        <input type="email" id="email" name="email" placeholder="Email*" aria-describedby="emailHelp" required>
       </div>
       <div class="elem-group">
-        <input type="phone" id="phone" name="visitor_phone" placeholder="Phone">
+        <input type="phone" id="phone" name="phone" placeholder="Phone">
       </div>
       <div class="elem-group">
-        <textarea id="message" name="visitor_message" placeholder="How can we assist you?*" required></textarea>
+        <textarea id="message" name="message" placeholder="How can we assist you?*" required></textarea>
       </div>
       <div class="elem-group">
         <div class="g-recaptcha" data-sitekey="6LeirW4nAAAAAE9adkMykQHgXoyht3bA9yuzcyZ7" data-callback="callback"></div>
       </div>
       <div class="elem-group">
-        <button id="submit-button" disabled><b>Send Message ></b></button>
+        <button type="submit" id="submit-button" disabled><b>Send Message ></b></button>
       </div>
     </form>
     <script type="text/javascript">
