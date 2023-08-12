@@ -1,97 +1,119 @@
 {{ define "main" }}
-<script src="/js/index.js" defer>
-</script>
-<link rel="stylesheet" href="/css/index.css">
+<script src="/js/index.js" defer></script>
+<link rel="stylesheet" href="/css/index.css" />
 
 <div class="electricTxtAlign">
-    <video id='vid' class="electricTxt" width="80%" height="550" preload autoplay muted loop playsinline src="/images/electric.mp4" type="video/mp4"></video>
+  <video
+    id="vid"
+    class="electricTxt"
+    width="80%"
+    height="550"
+    preload
+    autoplay
+    muted
+    loop
+    playsinline
+    src="/images/electric.mp4"
+    type="video/mp4"
+  ></video>
 </div>
 
-        <h1 id="h1Elem"><b>Specializing in Digital Marketing for Construction</b></h1>
+<h1 id="h1Elem"><b>Specializing in Digital Marketing for Construction</b></h1>
 
-        <div id="service" class="serviceElemAlign">
-            <div class="serviceElem">
-                <i class="bi bi-pc-display-horizontal" style="font-size:3em"></i>
-                <h2 class="serviceHeader">Web Development</h2>
-                <p>We code your website from scratch.
-                    Have an eye catching website that sets you a part from your
-                    competitors.</p>
-            </div>
-            <div class="serviceElem">
-                <i class="bi bi-badge-ad-fill" style="font-size:3em"></i>
-                <h2 class="serviceHeader">Advertising</h2>
-                <p>We create and run ads that are specific to
-                    the problems you solve and the network you want to reach.
-                    Clients have a problem. You will be the solution.
-                </p>
-            </div>
-            <div class="serviceElem">
-                <i class="bi bi-graph-up-arrow" style="font-size:3em"></i>
-                <h2 class="serviceHeader">Media Growth</h2>
-                <p>We will get eyes on your projects.
-                    Use media platforms to expand your
-                    network as soon as possible.
-                </p>
-            </div>
-        </div>
-        <div>
-            <p></p>
-        </div>
+<section class="contactSect">
+    <div class="contactAlign">
+      <h2>Our Business:</h2>
+      <p class="contactTxt">
+        Conductive Web is a digital marketing agency tailored for your construction business.
+      The structured plans we use show more people your work so you can grow your network and your clientele. 
+        We use electrifying ads, make your website show up better online, and create content
+        that sets you apart. Take the first step forward to making your construction
+        business even better.
+      </p>
+      <a href="/contact"
+        ><button class="contactBtn"><b>Lets get started ></b></button></a
+      >
+    </div>
+  </section>
 
-        <section class="contactSect">
-            <div class="contactAlign">
-                <h2 class="edgeTxt">Gain the Competitive Edge</h2>
-                <p class="contactTxt">
-                    With Conductive Web, your competitive edge is assured. Strategic, data-driven solutions amplify
-                    brand visibility, engagement, and conversions. Targeted ads, SEO, media, and captivating content set
-                    you apart. Embrace the edge and ignite success.
-                </p>
-                <a href="/contact"><button class="contactBtn"><b>Lets get
-                            started</b></button></a>
-            </div>
-        </section>
+<div id="service" class="serviceElemAlign">
+  <div class="serviceElem">
+    <i class="bi bi-pc-display-horizontal" style="font-size: 3em"></i>
+    <h2 class="serviceHeader">Web Development</h2>
+    <p>
+      We code your website from scratch. Have an eye catching website that sets
+      you a part from your competitors.
+    </p>
+  </div>
+  <div class="serviceElem">
+    <i class="bi bi-badge-ad-fill" style="font-size: 3em"></i>
+    <h2 class="serviceHeader">Advertising</h2>
+    <p>
+      We create and run ads that are specific to the problems you solve and the
+      network you want to reach. Clients have a problem. You will be the
+      solution.
+    </p>
+  </div>
+  <div class="serviceElem">
+    <i class="bi bi-graph-up-arrow" style="font-size: 3em"></i>
+    <h2 class="serviceHeader">Media Growth</h2>
+    <p>
+      We will get eyes on your projects. Use media platforms to expand your
+      network as soon as possible.
+    </p>
+  </div>
+</div>
+<div>
+  <p></p>
+</div>
 
-        <section class="aboutSect">
-            <div class="aboutAlign">
-                <div>
-                    <h2>Why Construction?</h2>
-                    <p> At Conductive Web, we are passionate about leveraging our expertise in construction digital
-                        marketing to propel businesses to new heights. As seasoned professionals in both the
-                        construction and marketing industries, we recognized the immense potential for growth and
-                        success when these two worlds converge.
-                        <br>
-                        <br>
-                        Our dedication to empowering construction companies
-                        stems from a profound understanding of their unique challenges and opportunities. Through our
-                        specialized knowledge and cutting-edge strategies, we strive to drive targeted traffic, boost
-                        online visibility, and generate high-quality leads for our clients. We believe in fostering
-                        meaningful connections between construction businesses and their target audiences,
-                        revolutionizing the way they reach and engage with potential customers.
-                    </p>
-                    <a href="/about"><button class="aboutBtn"><b>Want to know
-                                more?</b></button></a>
-                </div>
-                <img src="images/constructionSite.jpg" loading="lazy" alt="" width="500" height="600">
-            </div>
-        </section>
 
-        <section class="blogSect">
-            <div class="blogAlign">
-                <h2>Check out our Featured Blog Posts</h2>
-                <section class="listOfPosts">
-                    {{ range first 3 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections)
-                    ".Params.featured" "=" true) }}
+<section class="aboutSect">
+  <div class="aboutAlign">
+    <div>
+      <h2>Why Construction?</h2>
+      <p>
+        At Conductive Web, we're pros at helping construction businesses online.
+        We're good at building and promoting stuff. When we mix those skills,
+        your business improves.
+        <br />
+        <br />
+        We care about construction companies because we understand their
+        challenges. We use smart ideas and modern strategies to bring more
+        people to their websites, help them appear higher on the internet, and
+        find them more potential clients. We want construction companies to
+        connect with people who want their services, and that's what we do.
+      </p>
+      <a href="/about"
+        ><button class="aboutBtn"><b>Want to know more?</b></button></a
+      >
+    </div>
+    <img
+      src="images/constructionSite.jpg"
+      loading="lazy"
+      alt=""
+      width="500"
+      height="600"
+    />
+  </div>
+</section>
 
-                    <div class="postContainer">
-                        {{ with .Resources.GetMatch "banner.jpg" }}
-                        <img src="{{ .RelPermalink }}" width="350" height="350">
-                        {{ end }}
-                        <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-                    </div>
+<section class="blogSect">
+  <div class="blogAlign">
+    <h2>Check out our Featured Blog Posts</h2>
+    <section class="listOfPosts">
+      {{ range first 3 (where (where .Site.RegularPages "Type" "in"
+      site.Params.mainSections) ".Params.featured" "=" true) }}
 
-                    {{ end }}
+      <div class="postContainer">
+        {{ with .Resources.GetMatch "banner.jpg" }}
+        <img src="{{ .RelPermalink }}" width="350" height="350" />
+        {{ end }}
+        <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      </div>
 
-                </section>
-            </div>
-        </section>
+      {{ end }}
+    </section>
+  </div>
+</section>
 {{ end }}
