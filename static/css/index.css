@@ -11,6 +11,10 @@ main {
   height: 51em;
 }
 
+.serviceh2 {
+  text-align: center;
+  margin-bottom: 3cqmax;
+}
 
 .serviceHeader {
   color:  #6cb4dd;
@@ -35,13 +39,6 @@ main {
   justify-content: center;
 }
 
-.edgeTxt {
-  color:  #6cb4dd;
-  font-weight: bold;
-  font-size: 3em;
-  margin-bottom: .5em;
-  margin-top: 3em;
-}
 
 .serviceElem h2, .serviceElem p {
   margin: 0;
@@ -57,6 +54,11 @@ main {
   justify-content: center;
 }
 
+.serviceBtn {
+  margin-top: 3em;
+  text-align: center;
+}
+
 
 
 h3 {
@@ -69,23 +71,34 @@ font-size: 1.2em;
   justify-content: center;
 }
 
+.contactSect h2 , h2 {
+  margin-bottom: 1em;
+  font-weight: bold;
+  color:#6cb4dd;
+}
+
 .contactSect {
-  margin-top: 7em;
+  margin-inline: 10%;
+  margin-top: 15em;
+  margin-bottom: 8em;
   display: flex;
   justify-content: center;
 }
 
 .contactAlign {
-  width: 50%;
-  display: block;
-  justify-content: center;
-  text-align: center;
+  display: flex;
+  width: 70%;
+}
+
+.contactSect img {
+  margin-top: -10em;
+  transform: rotate(48deg);
 }
 
 .aboutSect{
   margin-bottom: 20em;
   margin-top: 15em;
-  margin-inline: 15%;
+  margin-inline: 10%;
 }
 
 .aboutAlign {
@@ -104,8 +117,9 @@ margin-right: 10em;
 }
 
 .aboutAlign img {
+  margin-right: 5em;
   border-radius: 5%;
-  width: 60%;
+  width: 50%;
 }
 
 .blogSect h2{
@@ -133,6 +147,7 @@ margin-right: 10em;
     font-size: 2em;
   }
 
+
         .serviceElemAlign {
           width: fit-content;
           display: block;
@@ -145,11 +160,19 @@ margin-right: 10em;
         }
  
         .contactSect {
-          margin-inline: 3em;
+          display: flex;
+        flex-direction: column-reverse;
+          margin-inline: 10%;
+        }
+
+        .contactSect img{
+          width: 100%;
+          height: auto;
         }
 
         .contactAlign {
-          width: 100%;
+          width: fit-content;
+          text-align: center;
         }
 
         .edgeTxt {
