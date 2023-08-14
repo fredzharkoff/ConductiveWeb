@@ -113,7 +113,6 @@ font-size: 1.2em;
 
 .aboutAlign div {
   width: 60%;
-margin-right: 10em;
 }
 
 .aboutAlign img {
@@ -135,7 +134,7 @@ margin-right: 10em;
   
   .electricTxt{
     width: 100%;
-    height: 29em;
+    height: 40em;
   }
 
 }

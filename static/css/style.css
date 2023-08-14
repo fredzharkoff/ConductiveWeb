@@ -127,7 +127,7 @@ padding: 0;
 }
 
 .listOfPosts {
-  margin-inline: 10em;
+  margin-inline: 10%;
   display: flex;
   flex-wrap:wrap;
 }
@@ -320,6 +320,10 @@ footer {
 }
 
 @media screen and (max-width: 1500px) {
+  
+  .listOfPosts {
+    margin-inline: 0;
+  }
   
   .navBrand {
     margin-right: 15%;
