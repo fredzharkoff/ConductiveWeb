@@ -142,11 +142,11 @@ font-size: 1.2em;
 @media screen and (max-width: 1280px) {
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .electricTxt{
-    height: 20em;
+    height: 10em;
   }
 
         .serviceElemAlign {
