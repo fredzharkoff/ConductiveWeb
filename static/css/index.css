@@ -166,8 +166,9 @@ font-size: 1.2em;
           margin-inline: 10%;
         }
 
-        .contactSect img{
-          width: 100%;
+        .contactSect img {
+          margin-inline: 10%;
+          width: 75%;
           height: auto;
         }
 
