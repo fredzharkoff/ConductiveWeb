@@ -133,7 +133,6 @@ font-size: 1.2em;
 @media screen and (max-width: 1500px) {
   
   .electricTxt{
-    width: 100%;
     height: 40em;
   }
 
@@ -143,9 +142,12 @@ font-size: 1.2em;
 @media screen and (max-width: 1280px) {
 
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
+  .electricTxt{
+    height: 20em;
+  }
 
         .serviceElemAlign {
           width: fit-content;
@@ -172,10 +174,6 @@ font-size: 1.2em;
         .contactAlign {
           width: fit-content;
           text-align: center;
-        }
-
-        .edgeTxt {
-          font-size: 2em;
         }
 
         .aboutSect {
