@@ -16,7 +16,7 @@ section ul {
 }
 
 .lightning {
-  margin-bottom: -0.3em;
+  margin-bottom: .20em;
 }
 
 h2 {
@@ -68,7 +68,7 @@ h3 {
   display: block;
   justify-content: center;
   border: 6px solid  #6cb4dd;
-  margin-bottom: 3em;
+  margin-bottom: 15em;
 }
 
 .bundle3 {

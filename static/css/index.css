@@ -7,8 +7,9 @@ main {
 }
 
 .electricTxt{
+  margin-block: 18em;
   width: 100%;
-  height: 51em;
+  height: auto;
 }
 
 .serviceh2 {
@@ -131,23 +132,22 @@ font-size: 1.2em;
 }
 
 @media screen and (max-width: 1500px) {
-  
-  .electricTxt{
-    height: 40em;
-  }
+
 
 }
 
 
 @media screen and (max-width: 1280px) {
 
+  .electricTxt {
+    margin-block: 15em;
+  }
+
+
   h1 {
     font-size: 1.5em;
   }
 
-  .electricTxt{
-    height: 30em;
-  }
 
         .serviceElemAlign {
           width: fit-content;
