@@ -6,3 +6,4 @@ function barMenu() {
       x.className = "container-fluid";
     }
   } 
+

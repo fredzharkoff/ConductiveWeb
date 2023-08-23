@@ -6,8 +6,16 @@ main {
   background-repeat: no-repeat;
 }
 
-.electricTxt{
+.electricTxtVid{
+  display: block;
   margin-block: 18em;
+  width: 100%;
+  height: auto;
+}
+
+.electricTxtGif {
+display: none;
+margin-block: 18em;
   width: 100%;
   height: auto;
 }
@@ -131,15 +139,10 @@ font-size: 1.2em;
   font-weight: bold;
 }
 
-@media screen and (max-width: 1500px) {
-
-
-}
-
 
 @media screen and (max-width: 1280px) {
 
-  .electricTxt {
+  .electricTxtGif {
     margin-block: 15em;
   }
 

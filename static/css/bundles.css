@@ -15,9 +15,14 @@ section ul {
     animation: glow 100s ease-in;
 }
 
-.lightning {
-  margin-bottom: .20em;
+.electricTxtGif {
+  margin-bottom: .2em;
 }
+
+ .electricTxtVid {
+  margin-bottom: -.5em;
+}
+
 
 h2 {
   font-size: 2em;
@@ -96,10 +101,7 @@ h3 {
 
   @media screen and (max-width: 1280px) {
 
-    h2 video {
-        width: 60%;
-        height: 30%;
-    }
+
     h2 {
         margin-inline: 1em;
         font-size: 1.5em;

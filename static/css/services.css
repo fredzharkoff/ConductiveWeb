@@ -26,7 +26,11 @@ h5 {
     width: 85%;
 }
 
-.floatingTxt {
+.electricTxtVid {
+    margin-top: -5em;
+}
+
+.electricTxtGif {
     margin-top: -4em;
 }
 
@@ -82,7 +86,7 @@ margin-bottom: -20em;
         margin-inline: 0;
     }
 
-    #megaphone, .floatingTxt {
+    #megaphone, .electricTxtGif {
       height: auto;
        width: 100%;
        margin: 1em auto;
